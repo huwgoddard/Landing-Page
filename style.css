@@ -42,6 +42,10 @@ body {
     height: 100%;
 }
 
+.content {
+    background-color: white;
+}
+
 .cards-header {
     text-align: center;
 }
@@ -60,7 +64,22 @@ body {
 }
 
 .card .box {
-    border: solid white 5px;
+    border: solid black 5px;
     width: 90px;
     height: 90px;
+}
+
+.quote-section {
+    padding : 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+
+}
+
+.attribution {
+    margin-left: auto;
 }
