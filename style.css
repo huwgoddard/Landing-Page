@@ -70,6 +70,7 @@ body {
 }
 
 .quote-section {
+    background-color: lightgrey;
     padding : 150px;
     display: flex;
     flex-direction: column;
@@ -82,4 +83,26 @@ body {
 
 .attribution {
     margin-left: auto;
+}
+
+.call-to-action {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action .box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action .box .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
 }
